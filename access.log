@@ -1,3 +1,30 @@
 ::1 - - [07/Dec/2016:16:01:58 +0000] "PUT /documents/how-to-write-an-express-app.md HTTP/1.1" 200 15 "-" "PostmanRuntime/3.0.5"
 ::1 - - [07/Dec/2016:16:09:23 +0000] "PUT /documents/how-to-write-an-express-app.md HTTP/1.1" 200 15 "-" "PostmanRuntime/3.0.5"
 ::1 - - [07/Dec/2016:16:09:38 +0000] "PUT /documents/how-to-write-an-express-app.md HTTP/1.1" 200 15 "-" "PostmanRuntime/3.0.5"
+PUT /documents/how-to-write-an-express-app.md 200 15 - 5.191 ms
+::1 - - [07/Dec/2016:16:50:49 +0000] "PUT /documents/how-to-write-an-express-app.md HTTP/1.1" 200 15
+::1 - - [07/Dec/2016:16:58:50 +0000] "POST /login HTTP/1.1" 404 19
+::1 - - [07/Dec/2016:16:59:03 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:18:14:09 +0000] "GET /documents/how-to-write-an-express-app.md/display HTTP/1.1" 500 1349
+::1 - - [07/Dec/2016:18:32:30 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:18:32:57 +0000] "GET /documents HTTP/1.1" 500 1343
+::1 - - [07/Dec/2016:18:34:11 +0000] "GET /api/login HTTP/1.1" 404 22
+::1 - - [07/Dec/2016:18:34:15 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:18:35:26 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:18:35:29 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:18:35:53 +0000] "GET /documents/ HTTP/1.1" 500 1343
+::1 - - [07/Dec/2016:18:37:35 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:18:38:45 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:18:39:29 +0000] "GET /documents/how-to-write-an-express-app.md HTTP/1.1" 500 1349
+::1 - - [07/Dec/2016:18:40:32 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:18:40:34 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:18:40:35 +0000] "POST /api/login HTTP/1.1" 200 44
+::1 - - [07/Dec/2016:19:11:53 +0000] "POST /api/login HTTP/1.1" 200 62
+::1 - - [07/Dec/2016:19:12:08 +0000] "POST /documents HTTP/1.1" 401 33
+::1 - - [07/Dec/2016:19:12:14 +0000] "GET /documents HTTP/1.1" 401 33
+::1 - - [07/Dec/2016:19:15:26 +0000] "POST /api/login HTTP/1.1" 200 64
+::1 - - [07/Dec/2016:19:17:25 +0000] "GET /documents?token=Te2xlO9bzUhmxe7TG6JftrFVMBxsJtXn HTTP/1.1" 200 34
+::1 - - [07/Dec/2016:19:18:33 +0000] "POST /api/login HTTP/1.1" 200 62
+::1 - - [07/Dec/2016:19:18:56 +0000] "GET /documents?token=zMobT2zhGHB0Dnv1H3LHdpo3e3bOMJSe HTTP/1.1" 200 34
+::1 - - [07/Dec/2016:19:19:53 +0000] "POST /api/login HTTP/1.1" 200 64
+::1 - - [07/Dec/2016:19:20:04 +0000] "GET /documents?token=8B7SjlaWe2C0urS7YYEigO06QlPcAWNS HTTP/1.1" 200 34
